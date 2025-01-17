@@ -29,7 +29,7 @@ def clear_screen():
 
 def search_menu(items):
     while True:
-        query = input("Enter item name or ID to search (or 'exit' to quit): ")
+        query = input("Enter item name, acronym, or ID to search (or 'exit' to quit): ")
         if query.lower() == 'exit':
             break
         item_id = get_item_id(query, items)
