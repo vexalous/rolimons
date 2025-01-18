@@ -51,9 +51,9 @@ def main():
         print("2. Exit")
         choice = input("Enter your choice: ").strip()
         
-        if choice.lower() == '1':
+        if choice == '1':
             search_menu(items)
-        elif choice.lower() == '2':
+        elif choice == '2':
             break
         else:
             print("Invalid choice. Please enter 1, 2.")
